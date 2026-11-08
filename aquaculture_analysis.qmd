@@ -397,7 +397,7 @@ tm_shape(eez_map) +
     fill = "area",
     fill.legend = tm_legend(title = "Suitable Area (km²)")
   ) +
-  tm_borders(lwd = 0.8) +
+  tm_borders(lwd = 1.0) +
   tm_title(paste("Suitable", species_name, "Habitat by West Coast EEZ"))
 }
 
@@ -430,7 +430,7 @@ suitable_areas(
   max_sst = 20,
   min_depth = 0,
   max_depth = 480,
-  species_name = "Oysters"
+  species_name = "Homarus Americanus"
 )
 ```
 
